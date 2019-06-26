@@ -6,7 +6,7 @@ The story of Old Town Road and its journey to the top made me wonder, “What do
 
 To answer this question, I decided to figure out what aspects of a song are useful in predicting a song’s ranking on the top 100. To do that, I did the following: 
 
-1. Scrape Billboard.com to grab the Billboard Hot 100 from April 2015 to April 2019
+1. Scrape Billboard.com to grab the Billboard Hot 100 from April 2015 to April 2019 - code found in the [Billboard Web Scraper jupyter notebook](https://github.com/amyksu/predicting_billboard_charts_ranking/blob/master/Billboard%20Web%20Scaper.ipynb)
 2. Utilize Spotify’s API to grab the Billboard Hot 100 songs’ audio features
 3. Create a linear regression to predict a song’s ranking on the Billboard chart
 
