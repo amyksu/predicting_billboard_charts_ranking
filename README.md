@@ -8,6 +8,6 @@ To answer this question, I decided to figure out what aspects of a song are usef
 
 1. Scrape Billboard.com to grab the Billboard Hot 100 from April 2015 to April 2019 (see [Billboard Web Scraper jupyter notebook](https://github.com/amyksu/predicting_billboard_charts_ranking/blob/master/Billboard%20Web%20Scaper.ipynb) for more information)
 2. Utilize Spotify’s API to grab the Billboard Hot 100 songs’ audio features (see [Spotify API script](https://github.com/amyksu/predicting_billboard_charts_ranking/blob/master/spotify_api.py) for more information)
-3. Perform EDA, clean the data for analysis, and feature engineering
+3. Perform EDA, clean the data for analysis, and feature engineering (see [Data Cleaning and Feature Engineering jupyter notebook](https://github.com/amyksu/predicting_billboard_charts_ranking/blob/master/Data%20Cleaning%20and%20Feature%20Engineering.ipynb)
 3. Create a linear regression to predict a song’s ranking on the Billboard chart
 
