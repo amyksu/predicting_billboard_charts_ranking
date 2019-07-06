@@ -16,9 +16,11 @@ To answer this question, I decided to figure out what aspects of a song are usef
 While doing some initial EDA, I found that the following artists had the most songs on the Billboard Charts over the last 7 years.
 
 ![Top 20 Artists from 2012 to 2019](https://github.com/amyksu/predicting_billboard_charts_ranking/blob/master/top_20_artists_by_year.png)
+<sup>created using Tableau</sup>
 
 I also looked at the correlations between the features and my target variable. 
 ![Correlation Heatmap](https://github.com/amyksu/predicting_billboard_charts_ranking/blob/master/corr.png)
+<sup>created using Seaborn</sup>
 
 Because a lower rank is better in this case, a negative correlation means that as the rank goes down (which is a good thing), the feature goes up and vice versa. For a positive correlation, as the rank goes up (which is a bad thing) the feature goes up and vice versa.
 
@@ -35,6 +37,7 @@ Using skLearn, I split my data into test, train, and validation sets using the t
 With my model, I found that the following feautres had the highest coefficients:
 
 ![Lasso Coefficients](https://github.com/amyksu/predicting_billboard_charts_ranking/blob/master/Coefficients_lasso.png)
+<sup>created using Seaborn</sup>
 
 In addition, I used the Mean Absolute Error (MAE) to calculate my error. MAE measures the average magnitude of the errors in a set of predictions, without considering their direction. As my prediction only has positive values and the magnitude of my errors is not as important, this makes the most sense for me to use. I found that my model has a errors of around 14.3, meaning that my prediction model will be around 14.3 ranks off. 
 Based on the above, we can gather the following conclusions:
